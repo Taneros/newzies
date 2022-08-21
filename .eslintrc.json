@@ -1,0 +1,49 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "settings": {
+        "react": {
+            "version": "detect"
+        }
+    },
+    "extends": [
+        "plugin:react/recommended",
+        "standard-with-typescript",
+        "plugin:import/typescript",
+        "plugin:prettier/recommended"
+    ],
+    "overrides": [],
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": "latest",
+        "sourceType": "module",
+        "project": "./tsconfig.json"
+    },
+    "plugins": [
+        "react",
+        "@typescript-eslint",
+        "prettier"
+    ],
+    "rules": {
+        // 0 is off / 1 is warn / 2 is error
+        "no-console": 1,
+        "react/jsx-uses-react": 1,
+        "react/react-in-jsx-scope": 1,
+        "react/jsx-props-no-spreading": 1,
+        "no-shadow": 1
+        // "react-hooks/exhaustive-deps": 1,
+        // "react-hooks/rules-of-hooks": 1,
+        // "react/button-has-type": 1,
+        // "react/prop-types": 1,
+        // "react/require-default-props": 1,
+        // "react/no-array-index-key": 1,
+        // "react/display-name": 1,
+        // "react/no-danger-with-children": 1,
+        // "react/jsx-no-bind": 1
+    }
+}
