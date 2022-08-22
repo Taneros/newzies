@@ -35,7 +35,9 @@
         "react/jsx-uses-react": 1,
         "react/react-in-jsx-scope": 1,
         "react/jsx-props-no-spreading": 1,
-        "no-shadow": 1
+        "no-shadow": 1,
+        "@typescript-eslint/no-invalid-void-type": 1,
+        "no-unused-vars": 1,
         // "react-hooks/exhaustive-deps": 1,
         // "react-hooks/rules-of-hooks": 1,
         // "react/button-has-type": 1,

@@ -1,7 +1,9 @@
 import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react'
 
 // eslint-disable-next-line @typescript-eslint/restrict-template-expressions
-const DOGS_API_KEY: string = `${process.env.REACT_APP_DOG_API_KEY}`
+const DOGS_API_KEY: string = `${import.meta.env.VITE_DOG_API_KEY}`
+
+console.log(DOGS_API_KEY)
 
 interface Breed {
   id: string
