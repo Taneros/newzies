@@ -30,22 +30,33 @@
         "prettier"
     ],
     "rules": {
-        // 0 is off / 1 is warn / 2 is error
+
         "no-console": 1,
         "react/jsx-uses-react": 1,
         "react/react-in-jsx-scope": 1,
         "react/jsx-props-no-spreading": 1,
         "no-shadow": 1,
         "@typescript-eslint/no-invalid-void-type": 1,
-        "no-unused-vars": 1,
-        // "react-hooks/exhaustive-deps": 1,
-        // "react-hooks/rules-of-hooks": 1,
-        // "react/button-has-type": 1,
-        // "react/prop-types": 1,
-        // "react/require-default-props": 1,
-        // "react/no-array-index-key": 1,
-        // "react/display-name": 1,
-        // "react/no-danger-with-children": 1,
-        // "react/jsx-no-bind": 1
+        "no-unused-vars": 1
     }
 }
+
+//"rules": {
+//
+//"no-console": 1,
+//"react/jsx-uses-react": 1,
+//"react/react-in-jsx-scope": 1,
+//"react/jsx-props-no-spreading": 1,
+//"no-shadow": 1,
+//"@typescript-eslint/no-invalid-void-type": 1,
+//"no-unused-vars": 1,
+//         "react-hooks/exhaustive-deps": 1,
+//         "react-hooks/rules-of-hooks": 1,
+//         "react/button-has-type": 1,
+//         "react/prop-types": 1,
+//         "react/require-default-props": 1,
+//         "react/no-array-index-key": 1,
+//         "react/display-name": 1,
+//         "react/no-danger-with-children": 1,
+//         "react/jsx-no-bind": 1
+//}
