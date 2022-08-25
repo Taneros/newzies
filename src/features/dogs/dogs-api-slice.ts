@@ -5,28 +5,39 @@ const DOGS_API_KEY: string = `${import.meta.env.VITE_DOG_API_KEY}`
 
 console.log(DOGS_API_KEY)
 
-interface Breed {
-  id: string
-  name: string
-  image: {
-    url: string
+interface News {
+  id: number
+  answer: string
+  question: string
+  value: number
+  airdate: string
+  created_at: string
+  updated_at: string
+  category_id: number
+  game_id: number
+  invalid_count: null
+  category: {
+    id: number
+    title: string
+    created_at: string
+    updated_at: string
+    clues_count: number
   }
 }
 
 export const apiSlice = createApi({
   reducerPath: 'api',
   baseQuery: fetchBaseQuery({
-    baseUrl: 'https://api.thedogapi.com/v1/',
+    baseUrl: 'http://jservice.io',
     prepareHeaders(headers) {
-      headers.set('x-api-key', DOGS_API_KEY)
       return headers
     },
   }),
   endpoints(builder) {
     return {
-      fetchBreeds: builder.query<Breed[], number | void>({
-        query(limit: number = 10) {
-          return `/breeds?limit=${limit}`
+      fetchBreeds: builder.query<News[], number | void>({
+        query() {
+          return `api/random?count=1`
         },
       }),
     }
