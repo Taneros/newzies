@@ -1,11 +1,7 @@
-import React from 'react';
+import React from 'react'
 
 const Navigation = (): JSX.Element => {
-  return (
-    <div>
-      Navigation
-    </div>
-  )
+  return <div>Navigation</div>
 }
 
-export default Navigation;
+export default Navigation

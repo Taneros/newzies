@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 import Navigation from './Navigation/Navigation'
 import Authorization from './Authorization/Authorization'
 
@@ -6,10 +6,10 @@ const Header = (): JSX.Element => {
   return (
     <div>
       <div>Logo</div>
-      <Navigation/>
-      <Authorization/>
+      <Navigation />
+      <Authorization />
     </div>
   )
 }
 
-export default Header;
+export default Header

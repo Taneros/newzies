@@ -1,11 +1,7 @@
-import React from 'react';
+import React from 'react'
 
 const Authorization = (): JSX.Element => {
-  return (
-    <div>
-      Auth
-    </div>
-  )
+  return <div>Auth</div>
 }
 
-export default Authorization;
+export default Authorization
