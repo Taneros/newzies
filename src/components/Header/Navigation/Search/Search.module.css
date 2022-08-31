@@ -1,0 +1,13 @@
+.search {
+    height: 100%;
+    border-left: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.search__input {
+    height: 100%;
+    background-color: #393939;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    color: #FFFFFF;
+}

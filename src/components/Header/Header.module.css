@@ -1,6 +1,8 @@
-.header {
+.header__container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     min-height: 70px;
+    background-color: #FFFFFF;
+    color: #393939;
 }

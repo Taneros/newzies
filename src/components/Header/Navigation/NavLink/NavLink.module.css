@@ -1,0 +1,9 @@
+.navLink {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.navLink:hover {
+    background-color: #F65050;
+    text-decoration: underline;
+}

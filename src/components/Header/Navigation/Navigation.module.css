@@ -1,0 +1,15 @@
+.navigation {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #393939;
+}
+
+.navigation__items {
+    display: flex;
+}
+
+.navigation__search {
+    display: flex;
+    align-items: center;
+}

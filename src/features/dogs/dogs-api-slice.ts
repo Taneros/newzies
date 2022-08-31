@@ -5,7 +5,7 @@ const DOGS_API_KEY: string = `${import.meta.env.VITE_DOG_API_KEY}`
 
 console.log(DOGS_API_KEY)
 
-interface News {
+export interface News {
   id: number
   answer: string
   question: string
@@ -44,4 +44,4 @@ export const apiSlice = createApi({
   },
 })
 
-export const { useFetchBreedsQuery } = apiSlice
+export const {useFetchBreedsQuery} = apiSlice
